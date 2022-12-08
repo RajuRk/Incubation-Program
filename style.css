@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0f10;
+}
+
+h1{
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.3em;
+    font-size: 3em;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+h4{
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+p{
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.fa{
+    font-family: 'FontAwesome';
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 1em 2em;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover{
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff; 
+}
+
+header{
+    padding: 7px 0;
+}
+
+.nav-item{
+    padding: 0 7px;
+}
+
+.nav-item .nav-link{
+    font-weight: 600;
+    color: #404040!important;
+}
+
+#second{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    color: #dbdbdb;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.banner-content p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh,
+#eighth,
+#ninth,
+#tenth{
+    padding: 30px 0px;
+}
+
+.about{
+    padding: 5px 15px;
+}
+
+.about,.offer-col{
+    text-align: center;
+}
+
+#fourth,
+#sixth,
+#eighth,
+#tenth{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.focus-col{
+    text-align: center;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+}
+
+.focus-col img{
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.focus-col h4,
+.focus-col p{
+    color: #ffffff;
+}
+
+.offer-col{
+    padding: 10px;
+}
+
+.offer-col img{
+    width: 96px;
+    margin-bottom: 20px;
+}
+
+.critirea{
+    padding: 0 15px;
+}
+
+.critirea ul li{
+    position: relative;
+    left: 25px;
+    color: #ffffff;
+}
+
+.critirea ul li:before{
+    content: '\f0a9';
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: -25px;
+    top: -2px;
+}
+
+.partners-img img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aboutus-content{
+    color: #ffffff;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.aic-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aic-img img{
+    width: 100%;
+    max-width: 380px;
+}
+
+.card-header p{
+    color: #000000;
+}
+
+.btn-link:hover,
+.btn-link:focus{
+    text-decoration: none;
+}
+
+.faq-ques-ans{
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 15px;
+    margin: 15px 15px;
+}
+
+.footer-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts{
+    color: #fff;
+    text-align: center;
+}
+
+.contacts ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts ul li{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.contacts ul li:hover{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.contacts ul li a{
+    color: #000000;
+}
+
+.contacts ul li:hover a{
+    color: #ffffff;
+}
+
+.footer-copyright p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2em;
+    }
+}
