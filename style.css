@@ -91,8 +91,11 @@ header{
 }
 
 #second{
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    min-height: 500px;
+    background-image: linear-gradient(to right, hsl(192deg 68% 41% / 65%) 0%, hsl(0deg 0% 0% / 84%) 100%),url(img/aic-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +139,7 @@ header{
 #sixth,
 #eighth,
 #tenth{
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #2193b0 0%, black 100%);
 }
 
 .title{
@@ -263,13 +266,69 @@ header{
     color: #000000;
 }
 
-.contacts ul li:hover a{
+.contacts ul li:hover a,
+.contacts p a{
     color: #ffffff;
 }
 
 .footer-copyright p{
     text-align: center;
     margin: 10px 0;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+.panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    letter-spacing: 1.5px;
+    color: #000000;
+    border-bottom: 1px solid #d5d5d5;
+}
+  
+.panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+  
+.panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #eee;
+}
+  
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+  
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.panel-body{
+    padding: 10px 15px;
 }
 
 @media only screen and (max-width: 600px){
