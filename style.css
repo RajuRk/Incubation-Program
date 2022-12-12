@@ -21,7 +21,7 @@ h1{
     font-weight: 800;
     letter-spacing: 3px;
     line-height: 1.3em;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2{
@@ -58,10 +58,9 @@ a:hover{
 
 button {
   background: none;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   border-radius: 5px;
-  color: #fff;
-  display: block;
+  color: #000;
   font-weight: bold;
   margin: 1em auto;
   padding: 1em 2em;
@@ -91,23 +90,32 @@ header{
 }
 
 #second{
-    background-image: linear-gradient(to right, hsl(192deg 68% 41% / 65%) 0%, hsl(0deg 0% 0% / 84%) 100%),url(img/aic-banner.jpg);
+    position: relative;
+}
+
+.background-img-banner{
+    clip-path: polygon(65% 0, 100% 0, 100% 100%, 30% 100%);
+    background-image: linear-gradient(to right, hsl(182deg 98% 35% / 63%) 0%, hsl(170deg 80% 32% / 63%) 65%),url(img/aic-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+}
+
+.background-content-banner{
+    position: absolute;
+    top: 10%;
+    left: 40px;
 }
 
 .banner-content{
-    color: #dbdbdb;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    width: 100%;
+    color: #10937e;
     padding: 15px 15px;
+}
+
+.banner-content p{
+    color: #000;
 }
 
 .banner-content p{
@@ -139,7 +147,7 @@ header{
 #sixth,
 #eighth,
 #tenth{
-    background-image: linear-gradient(to right, #2193b0 0%, black 100%);
+    background-image: linear-gradient(to right, #02AAB0 0%, #10937e 65%);
 }
 
 .title{
