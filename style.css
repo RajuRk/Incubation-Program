@@ -58,9 +58,9 @@ a:hover{
 
 button {
   background: none;
-  border: 3px solid #000;
+  border: 3px solid #10937e;
   border-radius: 5px;
-  color: #000;
+  color: #10937e;
   font-weight: bold;
   margin: 1em auto;
   padding: 1em 2em;
@@ -72,8 +72,13 @@ button {
 
 button:hover{
   text-decoration: none;
-  color: #000000;
-  background-color: #ffffff; 
+  color: #fff;
+  background-color: #10937e; 
+}
+
+button:active,
+button:focus{
+  border-color: #10937e;
 }
 
 #up-btn{
