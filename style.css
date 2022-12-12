@@ -76,8 +76,55 @@ button:hover{
   background-color: #ffffff; 
 }
 
+#up-btn{
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+  z-index: 999;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #f47a1e;
+  border-color: #f47a1e;
+  color: #fff;
+  transition: 0.5s;
+  box-shadow: 0px 2px 4px 1px #2e2828;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#up-btn:hover{
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #f47a1e;
+}
+
+#up-btn:active{
+  background-color: #ffffff;
+}
+
+#up-btn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 header{
     padding: 7px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav{
+    margin: auto;
 }
 
 .nav-item{
@@ -176,7 +223,7 @@ header{
 #sixth,
 #eighth,
 #tenth{
-    background-image: linear-gradient(to right, #02AAB0 0%, #10937e 65%);
+    background-image: linear-gradient(to right, #005558 0%, #10937e 65%);
 }
 
 .title{
