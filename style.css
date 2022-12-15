@@ -147,7 +147,7 @@ header{
 
 .background-img-banner{
     clip-path: polygon(65% 0, 100% 0, 100% 100%, 30% 100%);
-    background-image: linear-gradient(to right, hsl(182deg 98% 35% / 63%) 0%, hsl(170deg 80% 32% / 63%) 65%),url(img/aic-banner.jpg);
+    background-image: linear-gradient(to right, hsl(182deg 98% 35% / 63%) 0%, hsl(170deg 80% 32% / 63%) 65%),url(img/aic-banner-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,7 +177,7 @@ header{
 }
 
 #mobile-banner{
-    background-image: linear-gradient(to right, hsl(182deg 98% 35% / 63%) 0%, hsl(170deg 80% 32% / 63%) 65%),url(img/aic-banner.jpg);
+    background-image: linear-gradient(to right, hsl(182deg 98% 35% / 63%) 0%, hsl(170deg 80% 32% / 63%) 65%),url(img/aic-banner-1.jpg);
     min-height: 500px;
     height: 100%;
     background-size: cover;
